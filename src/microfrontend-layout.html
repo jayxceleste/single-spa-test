@@ -19,12 +19,18 @@
 
   <main>
     <redirect from="/" to="/invest"></redirect>
-    <application name="@app/navBar"></application>
+    <application name="@app/app1"></application>
     <route path="/invest">
       <application name="@app/form"></application>
     </route>
     <route path="/list">
       <application name="@app/list"></application>
+    </route>
+    <route path="/app1">
+      <application name="@app/app1"></application>
+    </route>
+    <route path="/app2">
+      <application name="@app/app2"></application>
     </route>
   </main>
 </single-spa-router>

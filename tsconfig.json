@@ -2,7 +2,8 @@
   "extends": "ts-config-single-spa",
   "files": ["src/moby-root-config.ts"],
   "compilerOptions": {
-    "declarationDir": "dist"
+    "declarationDir": "dist",
+    "esModuleInterop": true
   },
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test*"]
